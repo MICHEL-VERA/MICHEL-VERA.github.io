@@ -1,0 +1,1185 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  height: 50px;
+  background-color: #212121;
+}
+
+.hamburger {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+  z-index: 3;
+}
+
+.menu .menu_link {
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 37px;
+}
+
+.menu .menu_item:last-child {
+  border-right: none;
+}
+
+.container .row .btn_text {
+  width: 172px;
+  height: 46px;
+}
+
+.container .row .btn_text:hover {
+  background-image: none;
+  background-color: #1EACC7;
+}
+
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 87px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.subheader_logo {
+  display: block;
+  margin-top: 19px;
+  max-width: 100%;
+}
+
+.subheader .subheader_official {
+  margin-top: 4px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.subheader .subheader_call {
+  margin-top: 24px;
+  color: #FFF;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  color: #FFF;
+  text-align: right;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.subheader .btn_text {
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 23px;
+}
+
+.promo {
+  min-height: 799px;
+  background: url(../img/bg/uber_bg_jpg.jpg) center center/cover no-repeat;
+  padding: 155px 0 186px 0;
+}
+
+.promo .promo_header {
+  color: #FFF;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.promo .promo_subheader {
+  color: #FFF;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.promo .promo_descr {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.promo .promo_btn {
+  display: block;
+  width: 259px;
+  height: 63px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: none;
+  margin: 115px auto 0 auto;
+}
+
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1EACC7;
+}
+
+.advantages {
+  padding: 77px 0 115px 0;
+}
+
+.advantages .advantages_quantity {
+  color: #222;
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.advantages .advantages_round {
+  width: 116px;
+  height: 116px;
+  flex-shrink: 0;
+  background-color: #1EACC7;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.advantages .advantages_descr .subtitle {
+  color: #1EACC7;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  max-width: 343px;
+}
+
+.advantages .advantages_descr .subtitle_texte {
+  display: block;
+  color: #202020;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+  max-width: 372px;
+  margin-top: 5px;
+}
+
+.advantages .advantages_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.advantages .advantages_block_block .advantages_descr_descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 372px;
+}
+
+.advantages .advantages_block_block .advantages_descr_descr .subtitle {
+  color: #1EACC7;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.advantages .advantages_block_block .advantages_descr_descr .subtitle_texte {
+  display: block;
+  color: #202020;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+  width: 372px;
+  margin-top: 5px;
+}
+
+.advantages_block_block {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  padding: 0 23px 0 0;
+}
+
+.advantages_quantity {
+  color: #222;
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.mobile .subtitle {
+  color: #222;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 19px;
+}
+
+.mobile {
+  min-height: 864px;
+  padding: 105px 0 80px 0;
+  background: url("../img/bg/mobile_bg.png") center center/cover no-repeat;
+}
+
+.mobile .row {
+  margin-top: 30px;
+}
+
+.mobile_item {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 89px;
+  position: relative;
+}
+
+.mobile_item_1 {
+  background: url("../img/les_cartes/une_carte1_jpg.jpg") center center/cover no-repeat;
+}
+
+.mobile_item_2 {
+  background: url("../img/les_cartes/une_carte2_jpg.jpg") center center/cover no-repeat;
+}
+
+.mobile_item_3 {
+  background: url("../img/les_cartes/une_carte3_jpg.jpg") center center/cover no-repeat;
+}
+
+.mobile_item_4 {
+  background: url("../img/les_cartes/une_carte4_jpg.jpg") center center/cover no-repeat;
+}
+
+.mobile_item_5 {
+  background: url("../img/les_cartes/une_carte5_jpg.jpg") center center/cover no-repeat;
+}
+
+.mobile_item_6 {
+  background: url("../img/les_cartes/une_carte6_jpg.jpg") center center/cover no-repeat;
+}
+
+.mobile_item_suptitle {
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.mobile_item_plus {
+  width: 29px;
+  height: 29px;
+  background: #000;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.mobile_item_plus:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1EACC7;
+  transition: 0.3s all;
+}
+
+.mobile_item_plus:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1EACC7;
+  height: 14px;
+  width: 2px;
+  transition: 0.3s all;
+}
+
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
+
+/* .unevoiture
+	background: #070716
+	min-height: 502px
+	padding-top: 110px */
+/* &_title
+		color: #FFF
+		text-align: center
+		font-size: 38px
+		font-style: normal
+		font-weight: 700
+		text-transform: uppercase */
+/* &_subtitle
+		color: #FFF
+		text-align: center
+		font-size: 17px
+		font-style: normal
+		font-weight: 400 */
+/* */
+.unevoiture {
+  position: relative;
+  min-height: 899px;
+  background: url("../img/bg/banniere_blanche_voiture.png") center center/cover no-repeat;
+  padding: 110px 0 138px 0;
+}
+
+.unevoiture_black {
+  position: absolute;
+  height: 503px;
+  background-color: #070716;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.unevoiture_img {
+  position: relative;
+  display: block;
+  margin: 54px auto 0 auto;
+  z-index: 2;
+}
+
+.unevoiture_subtitle {
+  position: relative;
+  color: #FFF;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  z-index: 2;
+}
+
+.unevoiture_title {
+  position: relative;
+  color: #FFF;
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.unevoiture_desc {
+  color: #222;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.require {
+  padding: 120px 0 90px 0;
+}
+
+.require_block {
+  margin: 31px 0;
+}
+
+.require_block_mb {
+  margin-bottom: 0;
+}
+
+.require_title {
+  color: #1CA8C3;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.require_list {
+  display: block;
+  list-style-type: none;
+  padding-left: 51px;
+  margin-top: 21px;
+  position: relative;
+}
+
+.require_list li {
+  color: #222;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.require_list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 16px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/check_blue.png") center center/cover no-repeat;
+}
+
+.require_descr {
+  color: #1CA8C3;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 9px;
+}
+
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+.require .warning .require_list li:before {
+  background: url("../icons/check_red.png") center center/cover no-repeat;
+}
+
+.world {
+  position: relative;
+  background: url("../img/bg/bg_world.png") center center/cover no-repeat;
+  min-height: 717px;
+  padding: 99px 0 22px 0;
+}
+
+.world_bg {
+  position: absolute;
+  display: block;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.world .advantages_quantity {
+  position: relative;
+  color: #FFF;
+  z-index: 2;
+}
+
+.world .les_villes {
+  position: relative;
+  display: block;
+  color: #1FBAD6;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 68px;
+  margin-top: 456px;
+  z-index: 2;
+}
+
+footer {
+  height: 156px;
+  padding: 0 23px;
+}
+
+footer .footer_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+footer .footer_main > div {
+  width: 33%;
+}
+
+footer .footer_main > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .footer_divider {
+  width: 301px;
+  height: 7px;
+  background-color: #1FBAD6;
+  margin-top: 12px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer .footer_social {
+  display: flex;
+}
+
+footer .footer_social span {
+  color: #FFFFFF;
+}
+
+footer .footer_social_item {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: #070716;
+  padding: 9px;
+  margin-right: 6px;
+}
+
+footer .footer_links_main {
+  text-align: center;
+}
+
+footer .footer_links_main a {
+  color: #070716;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-right: 16px;
+}
+
+footer .footer_links_sub {
+  text-align: center;
+}
+
+footer .footer_links_sub a {
+  color: #999;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-right: 5px;
+  text-align: center;
+}
+
+footer .footer_links_lang {
+  display: block;
+  color: #1FBAD6;
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.subheader .xs-visible {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .menu .menu_item {
+    padding-right: 25px;
+  }
+}
+
+@media (max-width: 1199.9px) {
+  .menu .menu_item {
+    padding-right: 20px;
+  }
+  .menu .menu_link {
+    font-size: 13px;
+  }
+  .promo .promo_header {
+    font-size: 50px;
+  }
+  .advantages .advantages_quantity {
+    font-size: 36px;
+  }
+  .advantages .advantages_descr .subtitle_texte {
+    width: 300px;
+  }
+  .advantages .advantages_block {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .advantages .advantages_block_block {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .advantages .advantages_block_block .advantages_descr_descr {
+    width: 300px;
+  }
+  .advantages .advantages_block_block .advantages_descr_descr .subtitle_texte {
+    width: 300px;
+  }
+  .mobile_item {
+    width: 300px;
+  }
+  .offset-md-2 {
+    margin-left: 8.3%;
+  }
+  .world_bg {
+    width: 176%;
+    left: -239px;
+  }
+}
+
+@media (max-width: 991.9px) {
+  .menu .menu_item {
+    padding-right: 8px;
+  }
+  .menu .menu_link {
+    font-size: 10px;
+  }
+  .subheader .subheader_phone {
+    font-size: 19px;
+    margin-top: 2px;
+  }
+  .subheader_logo img {
+    width: 100%;
+  }
+  .subheader .subheader_official {
+    font-size: 11px;
+  }
+  .offset-md-2 {
+    margin-left: 0;
+  }
+  .subheader .subheader_call {
+    font-size: 11px;
+  }
+  .container .row .btn_text {
+    width: 155px;
+    height: 38px;
+  }
+  .container .row .btn_text:hover {
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  }
+  .subheader .btn_text {
+    margin-top: 25px;
+  }
+  .promo .promo_header {
+    font-size: 40px;
+  }
+  .promo .promo_subheader {
+    font-size: 31px;
+    margin-top: 5px;
+  }
+  .promo .promo_btn {
+    width: 236px;
+    height: 51px;
+    font-size: 15px;
+  }
+  .promo .promo_btn:hover {
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  }
+  .advantages .advantages_quantity {
+    font-size: 27px;
+  }
+  .advantages .advantages_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages .advantages_block_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages .advantages_descr_descr .subtitle {
+    margin-top: 20px;
+  }
+  .advantages .advantages_descr .subtitle {
+    margin-top: 20px;
+  }
+  .mobile_item_suptitle {
+    font-size: 19px;
+  }
+  .mobile_item {
+    width: 216px;
+    height: 260px;
+  }
+  .advantages_quantity {
+    font-size: 34px;
+  }
+  .unevoiture_title {
+    font-size: 34px;
+  }
+  .unevoiture_black {
+    height: 484px;
+  }
+  .unevoiture_img {
+    width: 100%;
+  }
+  .require_title {
+    font-size: 17px;
+  }
+  footer .footer_main img {
+    width: 100%;
+  }
+  footer .footer_links_sub a {
+    font-size: 10px;
+  }
+  footer .footer_links_main a {
+    margin-right: 11px;
+    font-size: 13px;
+  }
+  footer .footer_main {
+    align-items: flex-end;
+  }
+  footer .footer_divider {
+    width: 252px;
+    height: 6px;
+  }
+  .advantages .advantages_round {
+    margin-right: 0;
+  }
+  .world {
+    min-height: 650px;
+  }
+  .world .les_villes {
+    margin-top: 392px;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  .menu_active {
+    left: 0;
+  }
+  .menu .menu_item {
+    padding-right: 0;
+    border: none;
+  }
+  .menu .menu_link {
+    display: block;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  .xs-hidden {
+    display: none;
+  }
+  .subheader .xs-visible {
+    display: block;
+  }
+  .subheader .subheader_phone {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .container .row .btn_text {
+    display: block;
+    margin: 0 auto;
+    width: 142px;
+    height: 37px;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .promo .promo_header {
+    line-height: 45px;
+  }
+  .promo .promo_subheader {
+    margin-top: 20px;
+  }
+  .mobile_item {
+    width: 300px;
+    height: 270px;
+  }
+  .unevoiture {
+    min-height: 803px;
+  }
+  .unevoiture_subtitle {
+    margin-top: 10px;
+  }
+  .unevoiture_black {
+    height: 477px;
+  }
+  .advantages .advantages_descr .subtitle {
+    max-width: 300px;
+  }
+  .advantages_descr {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  .advantages .advantages_block_block .advantages_descr_descr {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  .advantages .advantages_descr_descr .subtitle {
+    max-width: 300px;
+  }
+  .advantages_block_block {
+    padding: 0;
+  }
+  .world {
+    min-height: 450px;
+  }
+  .world .les_villes {
+    margin-top: 181px;
+  }
+}
+
+@media (max-width: 575.9px) {
+  nav {
+    height: 30px;
+  }
+  .subheader_official {
+    display: none;
+  }
+  .subheader .subheader_phone {
+    font-size: 12px;
+    margin-top: 19px;
+    line-height: 0;
+  }
+  .container .row .btn_text {
+    margin-top: 9px;
+    width: 114px;
+    height: 22px;
+    font-size: 10px;
+  }
+  .subheader {
+    height: 62px;
+  }
+  .promo {
+    padding: 102px 0 34px 0;
+    min-height: 400px;
+  }
+  .promo .promo_descr {
+    display: none;
+  }
+  .promo .promo_header {
+    font-size: 30px;
+    line-height: 35px;
+    padding: 0 27px;
+  }
+  .promo .promo_subheader {
+    font-size: 20px;
+    padding: 0 10px;
+    line-height: 25px;
+    margin-top: 19px;
+  }
+  .promo .promo_btn {
+    width: 180px;
+    height: 48px;
+    margin-top: 51px;
+    font-size: 15px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  .advantages_block_block {
+    padding: 0;
+  }
+  .advantages {
+    padding: 63px 0 38px 0;
+  }
+  .advantages_quantity {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .advantages .advantages_block {
+    margin-top: 24px;
+  }
+  .advantages .advantages_round {
+    width: 100px;
+    height: 100px;
+  }
+  .advantages .advantages_block_block {
+    margin-top: 24px;
+  }
+  .advantages .advantages_quantity {
+    color: #222;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+  .advantages .advantages_descr {
+    align-items: start;
+  }
+  .advantages .advantages_descr .subtitle {
+    margin-top: 24px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .advantages .advantages_block_block .advantages_descr_descr {
+    align-items: start;
+  }
+  .advantages .advantages_block_block .advantages_descr_descr .subtitle {
+    margin-top: 24px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .mobile {
+    padding: 66px 0 43px 0;
+  }
+  .mobile .row {
+    margin-top: 0;
+  }
+  .mobile .subtitle {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .mobile_item {
+    width: 290px;
+    height: 254px;
+  }
+  .mobile_item_1, .mobile_item_2, .mobile_item_3, .mobile_item_4, .mobile_item_5, .mobile_item_6 {
+    padding: 0;
+    margin: 30px 0 0 0;
+  }
+  .mobile_item_suptitle {
+    padding-top: 81px;
+    font-size: 18px;
+    line-height: 31px;
+  }
+  .mobile .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .unevoiture {
+    min-height: 393px;
+    background: #070716;
+    padding: 55px 0 31px 0;
+  }
+  .unevoiture_img {
+    width: 300px;
+    height: 190px;
+    margin: 0 auto;
+  }
+  .unevoiture_black {
+    display: none;
+  }
+  .unevoiture_title {
+    display: none;
+  }
+  .unevoiture_subtitle {
+    display: none;
+  }
+  .unevoiture_desc {
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 23px;
+  }
+  .require {
+    padding: 62px 0 30px 0;
+  }
+  .require_title {
+    color: #1CA8C3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    padding: 0 16px;
+  }
+  .require_list {
+    margin-top: 0;
+  }
+  .require_list li {
+    color: #222;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 5px;
+    line-height: normal;
+  }
+  .require_descr {
+    color: #1CA8C3;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 15px;
+    padding: 0 16px;
+  }
+  .require_block {
+    margin: 0;
+  }
+  .advantages_quantity {
+    color: #222;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .world {
+    min-height: 360px;
+    padding: 64px 0 30px 0;
+  }
+  .world .unevoiture_subtitle {
+    display: block;
+    margin-top: 11px;
+    font-size: 14px;
+    padding: 0 25px;
+  }
+  .world .les_villes {
+    line-height: 15px;
+    margin-top: 181px;
+  }
+  footer .footer_divider {
+    width: 255px;
+    height: 6px;
+    margin-top: 24px;
+  }
+  footer .footer_main {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 51px;
+  }
+  footer .footer_links_main a {
+    margin-right: 0;
+  }
+  footer .footer_main > div {
+    width: 100%;
+  }
+  footer .footer_social {
+    justify-content: center;
+  }
+  footer .footer_main > div {
+    margin-bottom: 19px;
+  }
+  footer .footer_main > div:nth-child(1) {
+    order: 2;
+  }
+  footer .footer_main > div:nth-child(2) {
+    order: 1;
+  }
+  footer .footer_main > div:nth-child(3) {
+    order: 3;
+    justify-content: center;
+  }
+  footer .footer_links_main a {
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 13px;
+  }
+  footer .footer_links_sub a {
+    margin-right: 15px;
+    font-size: 11px;
+  }
+  footer .footer_main img {
+    width: 260px;
+    height: 24px;
+  }
+}
